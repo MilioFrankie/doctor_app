@@ -1,0 +1,6 @@
+<div class = "ui secondary pointing menu">
+  <%= link_to current_user.first_name, root_path, class: "ui item" %>
+  <div class="right menu">
+  <%= link_to "logout", destroy_user_session_path, method: :delete, class: "ui item"%>
+  </div>
+</div>
